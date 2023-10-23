@@ -1,12 +1,12 @@
 A scripty tool used to assist you in configuring your own build scripts
 be it Make or a bash/python script. If you can obtain the compilation
-output from an application you are using to build for you. You can forge
+output from an application you are using to build for you then you can forge
 your own build path. This tool will assist in getting the proper commands,
 flags, options, libraries, etc. from a compilation output you provide for it.
 
 ### Usage
 
-```console
+```
 ./dis-compilate.py -h
 usage: ./dis-compilate [options] [source_file]
 
@@ -25,3 +25,26 @@ optional arguments:
   --include INCLUDE  include any commands to search for that may not be
                      supported for the script
 ```
+
+### Example
+
+```console
+./dis-compilate.py --commands arduino-compilation.txt
+/home/landon/arduino-1.8.16/arduino-builder
+/home/landon/arduino-1.8.16/arduino-builder
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/tools-builder/ctags/5.8-arduino11/ctags
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-size
+
+```
+
