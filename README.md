@@ -30,21 +30,18 @@ optional arguments:
 
 ```console
 ./dis-compilate.py --commands arduino-compilation.txt
-/home/landon/arduino-1.8.16/arduino-builder
-/home/landon/arduino-1.8.16/arduino-builder
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/tools-builder/ctags/5.8-arduino11/ctags
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+
 /home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
 /home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
 /home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
 /home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-size
-
 ```
 

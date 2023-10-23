@@ -11,7 +11,7 @@
 
 import argparse
 
-keywords = ['bin', 'gcc', 'g++', 'objdump', 'objcop', 'size', 'as', 'ld']
+keywords = ['bin', 'gcc', 'g++', 'objdump', 'objcopy', 'size', 'as', 'ld']
 
 # Program usage/layout 
 parser = argparse.ArgumentParser(prog="./dis-compilate", description="Retreives useful options, flags, libraries, etc. from a verbose compilation file.", usage="%(prog)s [options] [source_file]")
@@ -43,20 +43,16 @@ if args.include:
 
 
 # Commands used
-commands = []
+commands_list = []
 sep = ' '
 if args.commands:
   for data in file_data_new:
     parts = data.split(sep, 1)[0]
-    commands.append(parts) 
-  for command in commands:
-    keyword_exist = True
-    for word in keywords:
-      if word in command:
+    commands_list.append(parts)
+  for word in keywords:
+    for command in commands_list:
+      if command.endswith(word):
         print(command)
-        break
-      else:
-        keyword_exist = False
 
 
 # Flags used (should contain options as flags are usually aliases for options)
