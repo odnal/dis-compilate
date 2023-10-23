@@ -31,17 +31,17 @@ optional arguments:
 ```console
 ./dis-compilate.py --commands arduino-compilation.txt
 
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
-/home/landon/arduino-1.8.16/hardware/tools/avr/bin/avr-size
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-objcopy
+/home/thinkpad/arduino-1.8.16/hardware/tools/avr/bin/avr-size
 ```
 
