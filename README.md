@@ -4,9 +4,9 @@ output from an application you are using to build for you. You can forge
 your own build path. This tool will assist in getting the proper commands,
 flags, options, libraries, etc. from a compilation output you provide for it.
 
-## Usage
+### Usage
 
-```
+```console
 ./dis-compilate.py -h
 usage: ./dis-compilate [options] [source_file]
 
